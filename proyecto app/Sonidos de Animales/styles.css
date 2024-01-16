@@ -1,0 +1,68 @@
+body {
+  h1{
+    color: rgb(255, 255, 255);
+    min-height: auto;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  height: 100vh;
+  background-color: #d253ce;
+}
+
+.titulo { /* Nueva clase para el título */
+  margin-top: 20px; /* Separar el título de la parte superior */
+  text-align: center; /* Centrar el título */
+}
+
+.game-container {
+  display: flex; /* Envolver el contenido en un flexbox */
+  flex-direction: column; /* Organizar los elementos en columna */
+  align-items: center; /* Centrar los elementos horizontalmente dentro del flexbox */
+  margin-top: 20px; /* Separar el contenedor del título */
+}
+
+.animales {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.animales img {
+  width: 100px;
+}
+
+.animal {
+  padding: 10px;
+  border: 1px solid #000000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.animal:hover {
+  background-color: #eee;
+}
+
+.sonidos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sonidos audio {
+  width: 100px;
+}
+
+button {
+  flex-direction: column;
+  background: rgb(28, 172, 177);
+  border: rgb(119, 16, 80);
+  border-radius: 12px;
+  margin-right: 20px;
+}

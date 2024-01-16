@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f1f8;
+    color: #fff;
+}
+
+header {
+    background-color: #f01bd3;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: black;
+}
+
+.game img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción original de la imagen */
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+.game {
+    background-color: #cce9ee;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game h2 {
+    margin: 0;
+    color: #00ccff;
+}
+
+.game p {
+    font-size: 14px;
+}
+
+.play-btn {
+    display: inline-block;
+    background-color: #00ccff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.play-btn:hover {
+    background-color: #0099cc;
+}
+
+footer {
+    background-color: #f01bd3;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}

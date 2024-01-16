@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina el número</title>
+  <link rel="stylesheet" href="dis.css">
+</head>
+<body>
+  <header>
+    <h1>Adivina el número</h1>
+  </header>
+  <main>
+    <div class="izquierda">
+      <p class="mensaje">Introduce un número del 1 al 10:</p>
+      <input type="number" id="numero" class="adivina">
+      <p class="mensaje"></p>
+    </div>
+    <div class="derecha">
+      <p class="label-score">Intentos: <span id="score">0</span></p>
+      <p class="numero" id="numero-generado"></p>
+    </div>
+    <div>
+      <button type="button" id="btn-adivinar" class="btn">Adivinar</button>
+      <button type="button" id="btn-otra-vez" class="btn" onclick="location.reload()">Otra vez</button> 
+    </div>
+  </main>
+  <script src="prog.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+	color: #000000;
+    background: url(https://img.freepik.com/vector-gratis/fondo-dia-mundial-nino-acuarela_23-2149716451.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	color: rgb(226, 18, 18);
+	padding: 50px;
+}
+.container{
+	background-color: #46f0a6;
+	max-width: 700px;
+	margin: auto;
+	border: 2px solid #1cb9d4;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0;
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.derecha{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.opcion{
+	width: 80px;
+	height: 80px;
+	border: 1px solid  #000000;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #3cd2ec;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion:hover{
+	background-color: #000000;
+}
